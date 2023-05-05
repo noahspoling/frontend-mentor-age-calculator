@@ -1,0 +1,101 @@
+.age-calculator-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    border-bottom-right-radius: 150px;
+    min-height: 500px;
+}
+.form-row-inputs {
+    display: flex;
+    flex-direction: row;
+}
+.form-row-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form-option {
+    flex-basis: 25%;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-button-container {
+    flex: 1
+}
+.form-button {
+
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 62.5px;
+    margin-right: 1rem;
+    background-color: hsl(259, 100%, 65%);
+    
+}
+.form-button:hover {
+    background-color: hsl(0, 0%, 8%);
+}
+.break {
+    border: none;
+    margin: 2.25rem 0rem;
+    height: 1px;
+    background-color: hsl(0, 0%, 94%);
+    flex: 9;
+}
+label {
+    font-size: 1rem;
+    font-family: 'Poppins-BoldItalic', 'Courier New', Courier, monospace;
+    margin-bottom: .5rem;
+}
+#day-validation, #month-validation, #year-validation {
+    color: hsl(0, 100%, 67%);
+    font-size: x-small;
+    margin-top: .5rem;
+}
+input {
+    border: 1px solid rgba(50, 50, 50, .25);
+    border-radius: 5px;
+    height: 50px;
+    padding: .5rem 1rem;
+    font-size: 32px;
+    font-family: 'Poppins-BoldItalic', 'Courier New', Courier, monospace;
+    width: 70%;
+    color: hsl(0, 0%, 8%);
+}
+input:focus {
+    outline: none;
+    box-shadow: inset 0 0 0 1px hsl(259, 100%, 65%);
+}
+input:invalid {
+    outline: none;
+    box-shadow: inset 0 0 0 1px hsl(0, 100%, 67%);
+}
+h2 {
+    color: hsl(0, 0%, 8%);
+}
+h2, span{
+    font-size: 3rem;
+    font-family: 'Poppins-ExtraBoldItalic', 'Courier New', Courier, monospace;
+}
+span {
+    color: hsl(259, 100%, 65%);
+}
+img {
+    width: 60%;
+    height: 60%;
+}
+@media only screen and (min-width: 767px) {
+    .age-calculator-container {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 5rem;
+        padding: 2rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .age-calculator-container {
+        width: 90%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+  }

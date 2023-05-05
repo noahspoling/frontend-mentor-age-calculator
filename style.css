@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Poppins-ExtraBoldItalic";
+    src: url('/assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url('/assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url('/assets/fonts/Poppins-Italic.ttf') format('truetype');
+}
+
+body * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins-Italic','Courier New', Courier, monospace;
+    color: hsl(0, 1%, 44%);
+    font-size: 2rem;
+}
+
+body {
+    background-color: hsl(0, 0%, 86%);
+}
+
+.attribution, a {
+    font-size: 10px;
+}
